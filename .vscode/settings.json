@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.accessibilityPageSize": 9,
+    "editor.wordWrap": "on"
+}

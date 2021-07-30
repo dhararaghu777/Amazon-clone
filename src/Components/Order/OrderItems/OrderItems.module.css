@@ -1,0 +1,86 @@
+.OrderItemParent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.OrderItems{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 10px;
+    padding: 5px;
+  }
+  
+  .OrderItemsImage{
+    height: 150px;
+    min-width: 300px;
+    max-width: 400px;
+    object-fit: contain;
+  }
+  
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .info{
+    font-size: 15px;
+    font-weight: 550;
+  }
+
+
+  @media (max-width:720px){
+
+  .OrderItems{
+    flex: 1 1 50%;
+    justify-content: space-around;
+  }
+
+  .OrderItemsImage {
+    height: 8rem;
+    min-width: 10rem;
+    max-width: 15rem;
+  }
+
+  .right{
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+
+  .info{
+    font-size: 0.9rem;
+  }
+
+}
+
+@media(max-width:540px) {
+.OrderItems {
+    flex: 1 1 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.OrderItemsImage {
+    height: 6rem;
+    min-width: 7rem;
+    max-width: 12rem;
+}
+
+.right {
+    font-size: 0.9rem;
+    margin-left: 18px;
+    margin-top: 10px;
+   
+}
+
+.info {
+    font-size: 0.8rem;
+}
+
+}
+
